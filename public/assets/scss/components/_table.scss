@@ -1,0 +1,23 @@
+.svg_table {
+  svg {
+    fill: #1e1e1e;
+    max-width: 24px;
+  }
+}
+
+.property-type-icon {
+  svg {
+    fill: #1e1e1e;
+    max-width: 50px;
+  }
+}
+
+legend {
+  border-bottom: 1px solid #ccc !important;
+  font-size: medium !important;
+  line-height: 2.4;
+}
+
+.float-right {
+  float: right;
+}

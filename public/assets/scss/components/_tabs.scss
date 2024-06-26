@@ -1,0 +1,35 @@
+.react-tabs {
+  .react-tabs__tab-list {
+    border-color: #ddd;
+    .react-tabs__tab {
+      font-size: 15px;
+      padding: 16px 8px;
+      border-color: transparent;
+      position: initial;
+      color: rgba(34, 54, 69, 0.7);
+    }
+    .react-tabs__tab--selected {
+      font-weight: 500;
+      color: #3344ff;
+      border-bottom: 2px solid #3344ff !important;
+    }
+  }
+
+  .react-tabs__tab-panel {
+    padding: 16px;
+  }
+}
+
+.vertical-tabs {
+  .react-tabs__tab-list {
+    display: inline-grid;
+    float: left;
+    width: 20%;
+    padding: 0 24px 0 0px;
+    border: none;
+  }
+  .react-tabs__tab-panel {
+    width: 80%;
+    margin-left: 20%;
+  }
+}

@@ -1,0 +1,52 @@
+ <fieldset className="form-control">
+                                <legend>English Data <small onClick={() => {
+                                    Languages.map((lang, i) => {
+                                        if (lang != "en") {
+                                            setFieldValue('seo.developer_seo_meta_description_' + lang, values.seo.developer_seo_meta_description_en);
+                                            setFieldValue('seo.developer_seo_meta_keywords_' + lang, values.seo.developer_seo_meta_keywords_en);
+                                        }
+                                    })
+                                }} className="btn btn-sm btn-link text-primary float-right">Apply To All Languages</small>
+                                </legend>
+                                <Row className="gx-3">
+
+</Row>
+</fieldset>
+<br />
+<fieldset className="form-control">
+    <legend>Arabic Data</legend>
+                                    <Row className="gx-3">
+
+</Row>
+    </fieldset>
+<br />
+<fieldset className="form-control">
+    <legend>French Data</legend>
+                                <Row className="gx-3">
+
+</Row>
+</fieldset>
+<br />
+<fieldset className="form-control">
+    <legend>German Data</legend>
+                                <Row className="gx-3">
+
+</Row>
+</fieldset>
+<br />
+<fieldset className="form-control">
+    <legend>Russian Data</legend>
+                                <Row className="gx-3">
+
+</Row>
+</fieldset>
+<br />
+<fieldset className="form-control">
+    <legend>Swedish Data</legend>
+                                <Row className="gx-3">
+
+                    <TabPanel>
+                        <Row className="gx-3">
+
+                        </Row>
+                    </TabPanel>

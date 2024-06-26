@@ -1,0 +1,47 @@
+const CityInitialValues = (city,seo) => {
+  return {
+    city: {
+      city_name_en: city?.city_name_en,
+      city_name_ar: city?.city_name_ar,
+      city_name_fr: city?.city_name_fr,
+      city_name_de: city?.city_name_de,
+      city_name_ru: city?.city_name_ru,
+      city_name_se: city?.city_name_se,
+      city_slug_en: city?.city_slug_en,
+      city_slug_ar: city?.city_slug_ar,
+      city_slug_fr: city?.city_slug_fr,
+      city_slug_de: city?.city_slug_de,
+      city_slug_ru: city?.city_slug_ru,
+      city_slug_se: city?.city_slug_se,
+      city_short_description_en: city?.city_short_description_en,
+      city_short_description_ar: city?.city_short_description_ar,
+      city_short_description_fr: city?.city_short_description_fr,
+      city_short_description_de: city?.city_short_description_de,
+      city_short_description_ru: city?.city_short_description_ru,
+      city_short_description_se: city?.city_short_description_se,
+      city_is_active: city?.city_is_active,
+    },
+    seo: {
+      city_seo_meta_title_en: seo?.city_seo_meta_title_en,
+      city_seo_meta_title_ar: seo?.city_seo_meta_title_ar,
+      city_seo_meta_title_fr: seo?.city_seo_meta_title_fr,
+      city_seo_meta_title_de: seo?.city_seo_meta_title_de,
+      city_seo_meta_title_ru: seo?.city_seo_meta_title_ru,
+      city_seo_meta_title_se: seo?.city_seo_meta_title_se,
+      city_seo_meta_keywords_en: seo?.city_seo_meta_keywords_en,
+      city_seo_meta_keywords_ar: seo?.city_seo_meta_keywords_ar,
+      city_seo_meta_keywords_fr: seo?.city_seo_meta_keywords_fr,
+      city_seo_meta_keywords_de: seo?.city_seo_meta_keywords_de,
+      city_seo_meta_keywords_ru: seo?.city_seo_meta_keywords_ru,
+      city_seo_meta_keywords_se: seo?.city_seo_meta_keywords_se,
+      city_seo_meta_description_en: seo?.city_seo_meta_description_en,
+      city_seo_meta_description_ar: seo?.city_seo_meta_description_ar,
+      city_seo_meta_description_fr: seo?.city_seo_meta_description_fr,
+      city_seo_meta_description_de: seo?.city_seo_meta_description_de,
+      city_seo_meta_description_ru: seo?.city_seo_meta_description_ru,
+      city_seo_meta_description_se: seo?.city_seo_meta_description_se,
+    },
+  };
+}
+
+export default CityInitialValues;
